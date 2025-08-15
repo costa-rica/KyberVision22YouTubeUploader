@@ -1,6 +1,6 @@
 const fs = require("fs");
 const { google } = require("googleapis");
-const { Video } = require("kybervision17db");
+const { Video } = require("kybervision18db");
 
 async function uploadVideo(filePath, videoId) {
   try {
@@ -27,7 +27,7 @@ async function uploadVideo(filePath, videoId) {
       requestBody: {
         snippet: {
           title: fileName,
-          description: "Uploaded by KyberVision17YouTubeUploader",
+          description: "Uploaded by KyberVision18YouTubeUploader",
         },
         status: {
           privacyStatus: "unlisted",
@@ -55,7 +55,7 @@ module.exports = uploadVideo;
 
 // const fs = require("fs");
 // const { google } = require("googleapis");
-// const { Video } = require("kybervision17db");
+// const { Video } = require("kybervision18db");
 
 // async function uploadVideo(filePath, videoId) {
 //   const oauth2Client = new google.auth.OAuth2(
@@ -81,7 +81,7 @@ module.exports = uploadVideo;
 //     requestBody: {
 //       snippet: {
 //         title: fileName,
-//         description: "Uploaded by KyberVision17YouTubeUploader",
+//         description: "Uploaded by KyberVision18YouTubeUploader",
 //       },
 //       status: {
 //         privacyStatus: "unlisted",
