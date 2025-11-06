@@ -1,12 +1,12 @@
 const fs = require("fs");
 const { google } = require("googleapis");
-// const { Video } = require("kybervision20db");
+// const { Video } = require("kybervision22db");
 // ⭐ import initModels alongside Video
-const { initModels, Video, sequelize } = require("kybervision20db");
+const { initModels, Video, sequelize } = require("kybervision22db");
 
 async function uploadVideo(filePath, videoId) {
   // BEFORE calling any Video.* methods:
-  // -- this is needed to initialize the db from the kybervision20db package
+  // -- this is needed to initialize the db from the kybervision22db package
   initModels();
   console.log("✅ initModels() is called successfully.");
   try {
