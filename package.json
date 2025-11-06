@@ -1,19 +1,19 @@
 {
-	"name": "kybervision20youtubeuploader",
-	"version": "1.0.0",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"description": "",
-	"dependencies": {
-		"@google-cloud/local-auth": "^3.0.1",
-		"dotenv": "^16.5.0",
-		"googleapis": "^149.0.0",
-		"kybervision20db": "file:../KyberVision20Db",
-		"yargs": "^17.7.2"
-	}
+  "name": "kybervision22youtubeuploader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "dotenv": "^16.5.0",
+    "googleapis": "^149.0.0",
+    "kybervision20db": "file:../KyberVision20Db",
+    "yargs": "^17.7.2"
+  }
 }
